@@ -1,0 +1,55 @@
+{
+  "cart": {
+    "swipe_y": 0,
+    "x": 1500,
+    "y": 150,
+    "frequency": 4
+  },
+  "battle": {
+    "troop_slots": 10,
+    "card_width": 145,
+    "start_x": 380,
+    "start_y": 960,
+
+    "deploy_stage2": {
+      "x": 650,
+      "y": 550
+    }
+  },
+  "sleep": {
+    "frequency": 5,
+    "duration": 5
+  },
+  "reminder": {
+    "webhook": "https://discord.com/api/webhooks/1234397200759525429/cmn3HE2Vx4t7W-QygkcO3dvizLFwPmKRiKgrI4QOZ8wYrV1Xsu_7PTeMS6nuFXOs8_AM",
+    "frequency": 83,
+    "uid": 1018396405498396753,
+    "duration": 60
+  },
+  "ocr": {
+    "attack_text": {
+      "x1": 0,
+      "y1": 0.75,
+      "x2": 0.15,
+      "y2": 1
+    },
+    "find_now_text": {
+      "x1": 0.6,
+      "y1": 0.6,
+      "x2": 0.85,
+      "y2": 0.75
+    },
+    "battle_start_in_text": {
+      "x1": 0.45,
+      "y1": 0,
+      "x2": 0.55,
+      "y2": 0.12
+    },
+    "return_home_text": {
+      "x1": 0.4,
+      "y1": 0.75,
+      "x2": 0.6,
+      "y2": 0.95
+    }
+  }
+}
